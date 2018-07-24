@@ -1,6 +1,6 @@
 body {
     font-size: 16px;
-    font-family: 'aldo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background: #233D58;
     position: relative;
 }
@@ -131,9 +131,9 @@ header nav #card_menu ul li a{
 	font-family: "icomoon";
 	content: "\e925";
 	position: relative;
-	top: -6px;
-	left: -2px;
-	font-size: 3.9em;
+	top: -2px;
+	right: 3px;
+	font-size: 4em;
 }
 
 
@@ -154,7 +154,7 @@ header nav #card_menu ul li a{
 	display: none;
 	border-top: 1px solid black;
 	box-shadow: 0px 0px 3px #9F9E9E;
-	font-family: 'aller';
+	font-family: 'Open Sans';
 	background: white;
 }
 #contact_form form{
@@ -242,7 +242,7 @@ header nav #card_menu ul li a{
 }
 #slider #home{
 	/*background: purple;*/
-	font-family: "aller";
+	font-family: "Open Sans";
 	/*height: 85vh;*/
 	position: relative;
 	text-align: center;
@@ -268,7 +268,7 @@ header nav #card_menu ul li a{
 	font-weight: lighter;
 }
 #slider #home .mainlogo strong{
-	font-family: "aldo";
+	font-family: "Open Sans";
 	font-size: 2em;
 	display: block;
 }
@@ -329,7 +329,7 @@ header nav #card_menu ul li a{
 	margin-top: -23%; /*-50px;*/
 }
 #slider #aboutme .top_am .text_am{
-	font-family: 'aller';
+	font-family: 'Open Sans';
 	background: white;
 	width: 80%;
 	margin-left: 10%;
@@ -518,7 +518,7 @@ header nav #card_menu ul li a{
 	top: 20px;
 	left: 38px;
 	font-size: 1.5em;
-	font-family: 'aldo';
+	font-family: 'Open Sans';
 }
 
 #slider #skills #conocimientos ul{
@@ -843,7 +843,7 @@ footer .rrss a figure img{
 }
 
 footer p{
-	font-family: 'aller';
+	font-family: 'Open Sans';
 	font-size: 0.8em;
 	font-weight: lighter;
 }
