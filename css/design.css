@@ -848,6 +848,11 @@ footer p{
 	font-weight: lighter;
 }
 
+#teamImage{
+  width: 30%;
+  height: 30%;
+}
+
 @media screen and (min-width: 480px){
 	#slider #home .mainlogo{
 		width: 270px;
@@ -1053,8 +1058,8 @@ footer p{
 	}
 	#slider #aboutme .top_am figure img{
 		margin: 0px;
-		width: 30vw;
-		margin-left: -100px;
+		/* width: 30vw; */
+		/* margin-left: -100px; */
 		transform: scale(1.2);
 	}
 	#slider #aboutme .top_am .text_am{
