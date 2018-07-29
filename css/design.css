@@ -338,6 +338,7 @@ header nav #card_menu ul li a{
 	position: relative;
 	box-shadow: 0px 0px 3px #AFAEAE;
 	padding-bottom: 30px;
+  margin-bottom: 30%;
 }
 #slider #aboutme .top_am .text_am h2{
 	background: #29abe2;
@@ -848,10 +849,7 @@ footer p{
 	font-weight: lighter;
 }
 
-#teamImage{
-  width: 30%;
-  height: 30%;
-}
+
 
 @media screen and (min-width: 480px){
 	#slider #home .mainlogo{
@@ -907,6 +905,12 @@ footer p{
 
 
 @media screen and (min-width: 767px){
+
+  #teamImage{
+    display: block;
+    width: 20%;
+    height: 20%;
+  }
 	body{
 		/*background: green;*/
 	}
@@ -1014,6 +1018,7 @@ footer p{
 
 	#slider #aboutme .top_am figure{
 		height: 243px;
+    margin-bottom: 30%;
 	}
 
 	#slider #skills > div{
@@ -1032,6 +1037,13 @@ footer p{
 
 
 @media screen and (min-width: 950px){
+
+  #teamImage{
+    border-radius: 50%;
+    display: inline;
+    width: 30%;
+    height: 30%;
+  }
 	#slider #aboutme > div{
 		width: 65%;
 		margin-left: 20%;
