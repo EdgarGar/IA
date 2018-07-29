@@ -30,10 +30,10 @@
         <figure id="hideMenu"  class="ioMenuMovil" onClick="displayMenu()"><img src="img/exit.png" alt=""></figure>
         <figure id="logo_menu"><img src="img/ailearners.png" alt=""></figure>
         <ul>
-          <li><a onClick = "navSection('home')" href="#">Inicio</a></li>
-          <li><a onClick = "navSection('aboutme')" href="#">Equipo</a></li>
-          <li><a onClick = "navSection('skills')" href="#">Temas</a></li>
-          <li><a onClick = "navSection('portfolio')" href="#">Eventos</a></li>
+          <li class="activeNavButton" id="homebutton"><a onClick = "navSection('home')" href="#">Inicio</a></li>
+          <li class="navbutton" id="teambutton"><a onClick = "navSection('aboutme')" href="#">Equipo</a></li>
+          <li class="navbutton" id="topicsbutton"><a onClick = "navSection('skills')" href="#">Temas</a></li>
+          <li class="navbutton" id="eventsbutton"><a onClick = "navSection('portfolio')" href="#">Eventos</a></li>
           <!-- <li><a onClick = "displayFormContact('block')" href="#">Contacto</a></li> -->
         </ul>
       </div>
@@ -361,15 +361,26 @@
     sections[2] = "skills";
     sections[3] = "portfolio";
 
+
+
     var show;
     var search;
     var bkgr_body;
     var bkgr_menu;
+		try {
+			var current = document.getElementsByClassName("activeNavButton");
+			current[0].className = current[0].className.replace("activeNavButton", "navbutton");
+		} catch (e) {
+			console.warn(e);
+		}
 
     for (var i=0; i<5; i++){
+			nextActive = document.getElementsByClassName('navbutton');
       search = document.getElementById(sections[i]);
       search.style.display = "none";
       if (nav == sections[i]){
+				console.log(i);
+				nextActive[i].className = nextActive[i].className.replace("navbutton", "activeNavButton");
         search.style.display = "block";
         if (sections[i] == "home"){
           bkgr_body = "#233D58";

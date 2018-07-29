@@ -26,6 +26,19 @@ canvas {
 
 
 
+.navbutton{
+  transition: background-color 0.5s ease;
+}
+
+.navbutton:hover{
+  background-color: rgb(59, 83, 147);
+
+}
+
+.activeNavButton{
+  background-color: rgb(59, 83, 147);
+}
+
 header{
 	height: 35px;
 	background: #233D58;
