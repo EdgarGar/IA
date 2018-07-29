@@ -374,6 +374,30 @@ header nav #card_menu ul li a{
  	top: 46px;
 	position: absolute;
 }
+#slider #aboutme .top_am .text_am #teamMember2:before{
+	content: '';
+	border-color: transparent #29abe2
+                transparent transparent;
+	border-style: solid;
+	border-width: 15px 12px 0px 30px;
+
+ 	left: 100%;
+ 	top: 32px;
+  transform: scaleX(-1);
+	position: absolute;
+}
+#slider #aboutme .top_am .text_am #teamMember2:after{
+	content: '';
+	border-color: transparent #233D58
+                transparent transparent;
+	border-style: solid;
+	border-width: 0px 12px 10px 12px;
+
+ 	left: 100%;
+ 	top: 46px;
+  transform: scaleX(-1);
+	position: absolute;
+}
 #slider #aboutme .top_am .text_am p{
 	margin: 5px 30px;
 	font-size: 0.8em;
@@ -1084,6 +1108,10 @@ footer p{
 	#slider #aboutme .top_am .text_am h2{
 		top: -20px;
 		left: -5px;
+	}
+  #slider #aboutme .top_am .text_am #teamMember2{
+		top: -20px;
+		left: 75%;
 	}
 	#slider #aboutme .top_am .text_am p{
 		margin-bottom: 20px;
