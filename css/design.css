@@ -317,9 +317,9 @@ header nav #card_menu ul li a{
 	margin-top: 0px;
 }
 #slider #aboutme .top_am figure{
-	width: 100%;
+	/* width: 100%; */
 	margin: 0px;
-	overflow: hidden;
+	/* overflow: hidden; */
 	height: 153px;
 	z-index: 5;
 	position: relative;
@@ -906,7 +906,7 @@ footer p{
 		margin-left: 10%;
 	}
 	#slider #aboutme .top_am figure{
-		height: 213px;
+		/* height: 213px; */
 	}
 	#slider #aboutme .bottom_am article{
 		width: 40%;
@@ -931,9 +931,37 @@ footer p{
 @media screen and (min-width: 767px){
 
   #teamImage{
-    display: block;
+    border-radius: 50%;
     width: 20%;
-    height: 20%;
+    /* height: 20%; */
+  }
+  #teamImage2{
+    border-radius: 50%;
+    width: 20%;
+    /* height: 20%; */
+  }
+
+  #slider #aboutme .top_am figure #teamImage{
+  	width: 100%;
+  	margin-top: 190%; /*-50px;*/
+  }
+  #slider #aboutme .top_am figure #teamImage2{
+  	width: 100%;
+  	margin-top: 0%; /*-50px;*/
+    position: absolute;
+    bottom: 260%;
+  }
+  #slider #aboutme .top_am .text_am{
+  	font-family: 'Open Sans';
+  	background: white;
+  	width: 80%;
+  	margin-left: 27%;
+  	margin-top: -53px;
+  	z-index: 10;
+  	position: relative;
+  	box-shadow: 0px 0px 3px #AFAEAE;
+  	padding-bottom: 30px;
+    margin-bottom: 30%;
   }
 	body{
 		/*background: green;*/
@@ -1041,8 +1069,8 @@ footer p{
 	}
 
 	#slider #aboutme .top_am figure{
-		height: 243px;
-    margin-bottom: 30%;
+		/* height: 243px; */
+    /* margin-bottom: 30%; */
 	}
 
 	#slider #skills > div{
@@ -1068,6 +1096,16 @@ footer p{
     width: 30%;
     height: 30%;
   }
+
+  #slider #aboutme .top_am figure #teamImage{
+    width: 100%;
+    margin-top: 0%; /*-50px;*/
+  }
+  #slider #aboutme .top_am figure #teamImage2{
+    width: 100%;
+    margin-top: 0%; /*-50px;*/
+    position:static;
+  }
 	#slider #aboutme > div{
 		width: 65%;
 		margin-left: 20%;
@@ -1080,7 +1118,7 @@ footer p{
 	}
 	#slider #aboutme .top_am > *{
 		display: inline-block;
-		vertical-align: top;
+		vertical-align:middle;
 	}
 	#slider #aboutme .top_am figure{
 		/*width: 381px;
