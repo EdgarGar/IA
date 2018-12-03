@@ -16,7 +16,7 @@ canvas {
 #particles-js {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 200%;
   background-color: none;
   background-image: url("");
   background-repeat: no-repeat;
@@ -59,6 +59,7 @@ header #next_section{
 	cursor: pointer;
 	overflow: hidden;
 }
+
 header #prev_section{
 	right: 35px;
 }
@@ -74,6 +75,21 @@ header #next_section img{
 }
 header #next_section img{
 	transform: rotate(180deg);
+}
+
+
+header #next_section:hover{
+    width: 60px;
+    height: 60px;
+    -webkit-transition: width 0.5s, height 0.5s; /* Safari */
+
+}
+
+header #prev_section:hover{
+  width: 60px;
+  height: 60px;
+  -webkit-transition: width 0.5s, height 0.5s; /* Safari */
+
 }
 
 header nav .ioMenuMovil{
@@ -144,8 +160,8 @@ header nav #card_menu ul li a{
 	font-family: "icomoon";
 	content: "\e925";
 	position: relative;
-	top: -2px;
-	right: 3px;
+	top: -7px;
+	right: 4px;
 	font-size: 4em;
 }
 
@@ -251,9 +267,9 @@ header nav #card_menu ul li a{
 #slider #home .mainanimation{
 	background: none;
 	min-height: 300px;
-	width: 80%;
+	width: 100%;
 	position: absolute;
-	margin-left: 10%;
+	margin-left: 0%;
 }
 #slider #home{
 	/*background: purple;*/

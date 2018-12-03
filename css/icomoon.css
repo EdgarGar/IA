@@ -22,6 +22,9 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-forward:before {
+  content: "\e969";
+}
 .icon-icon-05:before {
     content: "\e924";
 }
@@ -169,8 +172,8 @@
 .icon-pacman:before {
     content: "\e617";
 }
-.icon-connection:before {
-    content: "\e905";
+.icon-pencil:before {
+  content: "\e905";
 }
 .icon-library:before {
     content: "\e60e";
